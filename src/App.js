@@ -8,6 +8,8 @@ import RecetasProvider from './context/RecetasContext';
 import ModalProvider from './context/ModalContext';
 
 function App() {
+  const test = "Mario";
+  test = "Pedro";
   return (
     <CategoriasProvider>
       <RecetasProvider>
